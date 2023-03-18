@@ -2,14 +2,8 @@
 To explore dataframe
 We can perform the following
 """
-# Import necessary libraries
-import pandas as pd
-
-# Load the data into the dataframe
-df = pd.read_csv('placements_data.tsv', sep='\t')
-
-# Write the CSV file
-df.to_csv('placements_data.csv', index=False)
+# Import from basic modules
+from basic_modules import df
 
 # To print the first few lines of the dataframe
 # print(df.head())
@@ -18,7 +12,7 @@ df.to_csv('placements_data.csv', index=False)
 # print(df.shape)
 
 # To find more information about the dataframe
-# print(df.info())
+print(df.info())
 
 # To describe/compute some summary statistics
 # Like mean, median etc we use describe method
