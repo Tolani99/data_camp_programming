@@ -8,7 +8,7 @@ europe['italy'] = 'rome'
 print(europe['italy'])
 
 # Add poland to europe
-europe['polaned'] = 'warsaw'
+print('italy' in europe)
 
 # Print europe
 print(europe)
