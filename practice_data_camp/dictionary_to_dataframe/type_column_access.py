@@ -18,4 +18,7 @@ cars.index = row_labels
 dr_column = cars['drives_right']
 
 # Print drives right column
-print(dr_column)
+# print(dr_column)
+
+# print type
+print(type(dr_column))
